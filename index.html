@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Hugo Méndez González</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+  <!-- =======================================================
+    Theme Name: MyResume
+    Theme URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <div class="wrapper" id="wrapper">
+    <header>
+      <div class="banner row" id="banner">
+        <div class="parallax text-center" style="background-image: url(img/1.jpg);">
+          <div class="parallax-pattern-overlay">
+            <div class="container text-center" style="height:600px;padding-top:170px;">
+              <a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="img/Perfil.jpg" alt="Perfil" style="border-radius:50%;"/></a>
+              <h2 class="intro"><a href="index.html">Hugo Méndez González</a></h2>
+              <h4 class="post">Administrador de Sistemas y Redes</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="navbar-wrapper">
+          <div class="container">
+            <div class="navwrapper">
+              <div class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                  <div class="navArea">
+                    <div class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav">
+                        <li class="menuItem active"><a href="#wrapper">Home</a></li>
+                        <li class="menuItem"><a href="#contact">Contacto</a></li>
+                        <li class="menuItem"><a href="#specialties">Skills</a></li>
+                        <li class="menuItem"><a href="#feedback">Formación</a></li>
+                        <li class="menuItem"><a href="#feedback">Idiomas</a></li>
+                        <li class="menuItem"><a href="#aboutus">Sobre mí</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <!--contact-->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="heading">
+          <h2>Contacto</h2>
+          <h3>Vivo en mi ciudad natal. La ciudad más grande, más poblada y más trbajadora de Galicia, Vigo.</h3>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2954.8567798289487!2d-8.74018808504434!3d42.217505552085676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2589fd597d1689%3A0x73d26bdd5b8afc24!2sAv.+da+Florida%2C+34%2C+36210+Vigo%2C+Pontevedra!5e0!3m2!1ses!2ses!4v1544616806471" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <div class="col-md-5">
+              <h4>Información de Contacto</h4>
+
+              <ul>
+                <li><i class="fa fa-home fa-2x"></i> Avda. Florida 34, Bloque 1 2º I</li>
+                <li><i class="fa fa-phone fa-2x"></i> +34 665 79 02 12</li>
+                <li><i class="fa fa-envelope fa-2x"></i><a href="mailto:hugo3011mendez@gmail.com">hugo3011mendez@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div id="sendmessage">¡Gracias por enviar tu mensaje!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Tema" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                <div class="validation"></div>
+              </div>
+
+              <div class="text-center"><button type="submit" class="contact submit">Enviar</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!--skills-->
+    <section class="specialties" id="specialties">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Skills</h2>
+          <h3>Tengo conocimientos sobre Diseño Web, Programación, Sistemas y Redes adquiridos durante el Ciclo Medio de Sistemas Microinformáticos y Redes con una nota media de 9.</h3>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s" ">
+					<div class="skill ">
+						<div class="progress-wrap ">
+							<h3>Visual Basic</h3>
+							<div class="progress ">
+							  <div class="progress-bar color1 " role="progressbar " aria-valuenow="40 " aria-valuemin="0 " aria-valuemax="100 " style="width: 85% ">
+								<span class="bar-width ">85%</span>
+							  </div>
+
+							</div>
+						</div>
+
+						<div class="progress-wrap ">
+							<h3>HTML</h3>
+							<div class="progress ">
+							  <div class="progress-bar color2 " role="progressbar " aria-valuenow="20 " aria-valuemin="0 " aria-valuemax="100 " style="width: 95% ">
+							   <span class="bar-width ">95%</span>
+							  </div>
+							</div>
+						</div>
+
+						<div class="progress-wrap ">
+							<h3>Cisco CNNA</h3>
+							<div class="progress ">
+							  <div class="progress-bar color3 " role="progressbar " aria-valuenow="60 " aria-valuemin="0 " aria-valuemax="100 " style="width: 80% ">
+								<span class="bar-width ">80%</span>
+							  </div>
+							</div>
+						</div>
+
+						<div class="progress-wrap ">
+							<h3>CSS</h3>
+							<div class="progress ">
+							  <div class="progress-bar color4 " role="progressbar " aria-valuenow="80 " aria-valuemin="0 " aria-valuemax="100 " style="width: 90% ">
+								<span class="bar-width ">90%</span>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 wow fadeInRight " data-wow-offset="0 " data-wow-delay="0.6s "">
+            <img src="img/1.jpg" class="img-responsive">
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="skills">
+              <h3 class="main text-center">DISEÑO WEB</h3>
+              <div class="restitem clearfix">
+                <div class="rm-thumb" style="background-image: url(https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png);">
+                </div>
+                <h5>HTML</h5>
+                <p> Comencé a apenderlo en 1º de Bachillerato en mi Instituto y perfeccioné mis conocimientos sobre ello en el 2º año de CM.
+                </p>
+              </div>
+              <div class="restitem clearfix">
+                <div class="rm-thumb" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1000px-CSS3_logo_and_wordmark.svg.png)">
+                </div>
+                <h5>CSS</h5>
+                <p>Comencé a apenderlo en 1º de Bachillerato en mi Instituto y perfeccioné mis conocimientos sobre ello en el 2º año de CM.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="skills">
+              <h3 class="main text-center">PROGRAMACIÓN</h3>
+              <div class="restitem clearfix">
+                <div class="rm-thumb" style="background-image: url(http://2.bp.blogspot.com/-brv5ZPRomnY/WAYFKvbTdrI/AAAAAAAAAP0/t7xA9q_qyZsZyqkYEJLk3ZrdZENRTRQGwCK4B/s1600/logo_visualbasic.png)">
+                </div>
+                <h5>VISUAL BASIC</h5>
+                <p>Aprendí a dominar este lenguaje en el 1º año de Ciclo Medio.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="skills">
+              <h3 class="main text-center">SISTEMAS Y REDES</h3>
+              <div class="restitem clearfix">
+                <div class="rm-thumb" style="background-image: url(http://exceedtech.net/wp-content/uploads/2015/12/logo-cisco-ccna.png)">
+                </div>
+                <h5>CISCO CNNA</h5>
+                <p>Obtuve conocimientos sobre ello en el 1º año de Ciclo Medio, en la asignatura de Redes Locales.
+                </p>
+              </div>
+              <div class="restitem clearfix">
+                <div class="rm-thumb" style="background-image: url(http://pngimg.com/uploads/windows_logos/windows_logos_PNG25.png)">
+                </div>
+                <h5>WINDOWS</h5>
+                <p>Conocimientos sobre diferentes servicios en red.
+                </p>
+              </div>
+              <div class="restitem clearfix">
+                <div class="rm-thumb" style="background-image: url(https://vignette.wikia.nocookie.net/hardware-libre/images/6/6c/Linux.png/revision/latest?cb=20151211192940&path-prefix=es)">
+                </div>
+                <h5>LINUX</h5>
+                <p>Conocimientos sobre comandos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!--education-->
+    <section class="feedback" id="feedback">
+      <div class="container">
+        <div class="heading">
+          <h2>Educación</h2>
+          <h3>Formación Académica</h3>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+          <div class="text-center">
+            <div class="hi-icon-wrap hi-icon-effect">
+              <h4>Graduado en Ciclo Formativo de Grado Medio</h4>
+              <h5>2017 - 2019</h5>
+              <i class="fa fa-laptop"></i>
+              <p>CPR Plurilingüe Montecastelo, Vigo, España.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
+          <div class="text-center">
+            <div class="hi-icon-wrap hi-icon-effect">
+              <h4>Graduado en ESO</h4>
+              <h5>2012 - 2016</h5>
+              <i class="fa fa-book"></i>
+              <p>IES Alexandre Bóveda, Vigo, España</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="feedback" id="feedback">
+      <div class="container">
+        <div class="heading">
+          <h3>Formación Complementaria</h3>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+          <div class="text-center">
+            <div class="hi-icon-wrap hi-icon-effect">
+              <h4>4º Puesto en GaliciaSkills 2018</h4>
+              <h5>NOV 2018</h5>
+              <i class="fa fa-laptop"></i>
+              <p>Conseguido en la Skill de Administración de Sistemas y Redes. <br> 
+                 Feira Internacional de Galicia ABANCA, Silleda, España.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
+          <div class="text-center">
+            <div class="hi-icon-wrap hi-icon-effect">
+              <h4>Curso de Robots sigue líneas</h4>
+              <h5>2016</h5>
+              <i class="fa fa-book"></i>
+              <p>IES Alexandre Bóveda, Vigo, España.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--Idiomas-->
+    <section class="idiomas" id="idiomas">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Idiomas</h2>
+          <ul class="fa-ul">
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Flag_of_Spain_%281945%E2%80%931977%29.svg/300px-Flag_of_Spain_%281945%E2%80%931977%29.svg.png" alt="Castellano" height="100px" width="200px">
+
+            </li>
+
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bandeira_galega_nacionalista.svg/220px-Bandeira_galega_nacionalista.svg.png" alt="Gallego" height="100px" width="200px">
+            </li>
+
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Military_flag_of_Portugal.svg/280px-Military_flag_of_Portugal.svg.png" alt="Portugués" height="100px" width="200px">
+            </li>
+
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png" alt="Inglés" height="100px" width="200px">
+            </li>
+
+            <li>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Flag_of_Philippe_P%C3%A9tain%2C_Chief_of_State_of_Vichy_France.svg/220px-Flag_of_Philippe_P%C3%A9tain%2C_Chief_of_State_of_Vichy_France.svg.png" alt="Francés" height="100px" width="200px">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!--about us-->
+    <section class="aboutus" id="aboutus">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>Sobre mí</h2>
+          <h3> 
+              Soy una persona de fácil convivencia, trabajo bien en equipo ya que siempre es mejor cuando todos aportan su granito de arena al proyecto y estoy disponible para viajar. <br>
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <section class="footer" id="footer">
+      <p class="text-center">
+        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+      </p>
+      <div class="container">
+        <ul>
+          <li><a href="https://www.facebook.com/hugo.mendezgonzalez.98"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/RedH3011?lang=es"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/hmg3011/"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        <p>&copy; MyResume Theme. All Rights Reserved.</p>
+        <div class="credits">
+          <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyResume
+          -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/modernizr.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/menustick.js"></script>
+  <script src="js/parallax.js"></script>
+  <script src="js/easing.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/masonry.js"></script>
+  <script src="js/imgloaded.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/colorfinder.js"></script>
+  <script src="js/gridscroll.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/common.js"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
+  <script type="text/javascript">
+    jQuery(function($) {
+      $(document).ready(function() {
+        //enabling stickUp on the '.navbar-wrapper' class
+        $('.navbar-wrapper').stickUp({
+          parts: {
+            0: 'banner',
+            1: 'aboutus',
+            2: 'specialties',
+            3: 'gallery',
+            4: 'feedback',
+            5: 'contact'
+          },
+          itemClass: 'menuItem',
+          itemHover: 'active',
+          topMargin: 'auto'
+        });
+      });
+    });
+  </script>
+  <script src="contactform/contactform.js"></script>
+
+
+</body>
+
+</html>
