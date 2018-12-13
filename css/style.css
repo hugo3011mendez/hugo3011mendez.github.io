@@ -171,6 +171,7 @@ header {
 	overflow:hidden;
 }
 
+
 .parallax-pattern-overlay {
 	background-image:url(../img/pattern.png);
 	background-repeat: repeat;
@@ -315,8 +316,6 @@ img#site-title {
   position: absolute;
   width: auto;
   height: auto;
-  border-width: 8px 5px;
-  border-style: solid;
   bottom: -15px;
   right: 8px;
 }
@@ -801,7 +800,7 @@ section.idiomas#idiomas ul.fa-ul li{
 }
 
 section.idiomas#idiomas ul.fa-ul li img{
-	border:2px solid black;
+	border:1px solid black;
 }
 
       /* Progreso en los Idiomas */
